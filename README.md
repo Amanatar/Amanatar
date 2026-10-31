@@ -1,71 +1,70 @@
-# Aman Atar — Quantitative Researcher & Production ML Engineer
+# Aman Atar
 
 <div align="center">
 
-[![Kaggle](https://img.shields.io/badge/Kaggle-Notebooks_Expert_%7C_World_Rank_%2330_(Top_0.05%25)-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/amanatar)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aman_Atar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aman-atar)
-[![MScFE](https://img.shields.io/badge/MSc_Financial_Engineering-WorldQuant_University-0B1D3A?style=for-the-badge&logo=academia&logoColor=white)](https://www.wqu.edu)
-[![IIT Hyderabad](https://img.shields.io/badge/AI_%26_ML_with_Drone_Tech-IIT_Hyderabad-D9381E?style=for-the-badge&logo=google-scholar&logoColor=white)](https://www.iith.ac.in)
+[![Kaggle Expert](https://img.shields.io/badge/Kaggle_Notebooks_Expert-%2330_Worldwide_(Top_0.05%25)-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/amanatar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aman_Atar-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aman-atar)
+[![MScFE](https://img.shields.io/badge/MSc_Financial_Engineering-WorldQuant_University-0B1D3A?logo=academia&logoColor=white)](https://www.wqu.edu)
+[![IIT Hyderabad](https://img.shields.io/badge/AI_%26_ML_Coursework-IIT_Hyderabad-D9381E?logo=google-scholar&logoColor=white)](https://www.iith.ac.in)
 
 </div>
 
 ---
 
-### Executive Profile
-> **Bridging stochastic calculus, Differential Machine Learning (Sobolev training), Time-Series Foundation Models (TSFMs), and auditable multi-agent architectures for quantitative finance and high-dimensional ML systems.**
+Hey, I'm Aman.
 
-- **Global Competitive Standing:** **World Rank #30** (Peak #28) worldwide out of **58,736+** practitioners on Kaggle (**Top 0.05%**), holding **40 Medals** (4 Gold, 5 Silver, 31 Bronze) and **2,800+ community upvotes**.
-- **Academic Rigor:** Master of Science in Financial Engineering (**MScFE**) student at WorldQuant University; specialized in AI & Autonomous Navigation at **IIT Hyderabad**.
-- **Engineering Execution:** Production-grade GenAI & MLOps deployment on **AWS EC2**, **Bedrock RAG**, and **FastAPI**, backed by systems engineering in **Rust**.
+I work on quantitative finance models and production ML systems -- mostly focused on what happens when clean math meets noisy market regimes, jump risk, and strict latency budgets.
+
+Currently doing my MSc in Financial Engineering at WorldQuant University (plus AI/ML coursework with IIT Hyderabad). Outside research, I test ideas on Kaggle as a **Kaggle Notebooks Expert** -- currently ranked **#30 worldwide** out of 58,700+ ranked notebooks practitioners (peak #28, 40 medals: 4 Gold, 5 Silver, 31 Bronze).
 
 ---
 
-## 🏛️ Flagship Research & Production Architectures
+## Featured Systems & Code (Original Repositories)
 
-| System / Repository | Core Architecture & Mathematical / Engineering Edge | Technical Stack |
+| System | Focus & Implementation Details | Stack |
 | :--- | :--- | :--- |
-| **[auditable-regime-aware-agentic-forecasting](https://github.com/Amanatar/auditable-regime-aware-agentic-forecasting)**<br>`TRACE-Fin` | **Timestamp-Restricted, Regime-Aware, Evidence-Audited Forecasting for Financial Returns.** Enforces strict causality validation, market regime transition detection, transaction-cost-adjusted utility functions, and calibrated uncertainty intervals. Deliberately conservative quantitative scaffold designed to eliminate lookahead bias. | `Python`, `PyTorch`, `Time-Series ML`, `Regime Detection`, `Statistical Arbitrage` |
-| **[neural-bates-dml](https://github.com/Amanatar/neural-bates-dml)**<br>`Sobolev Pricing Engine` | **Differential Machine Learning (DML) Neural Surrogate for the Bates Stochastic Volatility Jump-Diffusion (SVJD) Model.** Trains a twin neural network under a Sobolev-style loss function on both option prices and analytical Greeks sensitivities derived from a Carr-Madan Fast Fourier Transform (FFT) pricer. Delivers ultra-fast downstream market calibration on live SPY option chains. | `Python`, `PyTorch`, `Sobolev Training`, `Carr-Madan FFT`, `Bates SVJD`, `SPY Calibration` |
-| **[google-ai-agents-intensive.](https://github.com/Amanatar/google-ai-agents-intensive.)**<br>`The Alpha Seeker` | **Autonomous Multi-Agent Trading System.** Google Agent Development Kit (ADK) & Kaggle Capstone architecture orchestrating specialized sequential, parallel, and iterative loop agents for automated macro analysis, signal generation, and drawdown risk enforcement (Drawdown < 15%). | `Python`, `Google ADK`, `Multi-Agent LLMs`, `Technical Analysis`, `Risk Automation` |
-| **[TradingAgents](https://github.com/Amanatar/TradingAgents)**<br>`Multi-Agent Alpha Framework` | **Multi-Agent LLM Financial Trading Framework.** Distributed agent hierarchy combining fundamental sentiment scrapers, technical signal analysts, and quantitative risk controllers for algorithmic decision-making. | `Python`, `LLM Agents`, `LangChain`, `Algorithmic Trading`, `Quantitative Finance` |
-| **[claw-code](https://github.com/Amanatar/claw-code)**<br>`Systems Agent Harness` | **High-Performance AI Agent Execution Harness & Sandboxing Engine.** Rewritten in Rust for memory safety, minimal latency, and zero-overhead process virtualization when executing multi-turn tool calling and code execution. | `Rust`, `Systems Programming`, `Agent Harness`, `Process Sandboxing`, `CLI` |
-| **[applied_-ai_lab_deep_learning_computer_vision_wqu](https://github.com/Amanatar/applied_-ai_lab_deep_learning_computer_vision_wqu)**<br>`Applied AI Lab (WQU)` | **WorldQuant University & OpenAI Applied AI Lab.** Real-world deep learning and vision pipelines including YOLO object detection, CNN feature maps, transfer learning, and production PyTorch modeling. | `Python`, `PyTorch`, `OpenCV`, `YOLO`, `CNNs`, `Transfer Learning` |
+| **[auditable-regime-aware-agentic-forecasting](https://github.com/Amanatar/auditable-regime-aware-agentic-forecasting)**<br>`TRACE-Fin` | **Timestamp-restricted, regime-aware evidence-audited forecasting for financial returns.** Enforces strict causality invariants (zero lookahead leakage), market regime shift detection, transaction-cost utility optimization, and conformal uncertainty intervals. | `Python`, `PyTorch`, `Time-Series ML`, `Regime Detection` |
+| **[neural-bates-dml](https://github.com/Amanatar/neural-bates-dml)**<br>`Sobolev Pricing Engine` | **Differential Machine Learning surrogate for the Bates SVJD stochastic volatility jump-diffusion model.** Trains a twin neural network with Sobolev-style loss on analytical prices and Greeks sensitivities from a Carr-Madan FFT pricer, bringing SPY calibration time down to milliseconds. | `Python`, `PyTorch`, `Sobolev Training`, `Carr-Madan FFT`, `Bates SVJD` |
+| **[google-ai-agents-intensive.](https://github.com/Amanatar/google-ai-agents-intensive.)**<br>`The Alpha Seeker` | **Autonomous multi-agent trading system.** Google Agent Development Kit (ADK) & Kaggle capstone coordinating sequential, parallel, and feedback-loop agents for macro data ingestion, signal evaluation, and max drawdown (<15%) enforcement. | `Python`, `Google ADK`, `Multi-Agent LLMs`, `Technical Analysis` |
+| **[applied_-ai_lab_deep_learning_computer_vision_wqu](https://github.com/Amanatar/applied_-ai_lab_deep_learning_computer_vision_wqu)**<br>`Applied AI Lab (WQU)` | **Computer vision and deep learning lab.** End-to-end PyTorch implementations including YOLO object detection, convolutional neural nets, transfer learning, and OpenCV image pipelines. | `Python`, `PyTorch`, `OpenCV`, `YOLO`, `CNNs` |
+| **[IRL_Data_Science_-_GenAi_Internship](https://github.com/Amanatar/IRL_Data_Science_-_GenAi_Internship)**<br>`Production GenAI & MLOps` | **Production LLM & MLOps suite.** Includes FinWiser (financial assistant with Gemini + NVIDIA NIM auto-failover on AWS EC2), enterprise RAG via Amazon Bedrock, and centralized MLflow tracking across 5 classification baselines. | `Python`, `AWS EC2`, `Bedrock RAG`, `MLflow`, `Flask`, `Docker` |
+| **[hypertension-risk-assessment](https://github.com/Amanatar/hypertension-risk-assessment)**<br>`Clinical Risk Classifier` | **End-to-end clinical risk prediction pipeline.** Preprocessing multi-modal patient indicators into a 4-stage classifier with rigorous feature scaling to prevent leakage, served via an interpretable Flask web interface. | `Python`, `Scikit-Learn`, `Flask`, `Feature Engineering` |
 
 ---
 
-## 🏆 Competitive ML Track Record (Kaggle: [@amanatar](https://www.kaggle.com/amanatar))
+## Competitive ML on Kaggle (Kaggle Expert)
 
-<div align="center">
+I actively compete on Kaggle as a **Kaggle Notebooks Expert** ([@amanatar](https://www.kaggle.com/amanatar)).
 
-| Metric | Standing | Community Impact |
-| :---: | :---: | :---: |
-| **Global Notebooks Rank** | **#30 Worldwide** (Top 0.05%) | **2,802** Total Upvotes |
-| **Peak Worldwide Rank** | **#28 Worldwide** / 58,736+ | **1,231+** Dataset Downloads |
-| **Total Notebook Medals** | **40 Medals** (🥇 4 Gold · 🥈 5 Silver · 🥉 31 Bronze) | **100-Day** Consecutive Streak |
+| Metric | Current Standing |
+| :--- | :--- |
+| **Global Rank (Notebooks)** | **#30 Worldwide** (Top 0.05% of 58,700+ ranked practitioners) |
+| **Peak Rank** | **#28 Worldwide** |
+| **Total Notebook Medals** | **40 Medals** (4 Gold, 5 Silver, 31 Bronze) |
+| **Community Upvotes** | **2,800+ Upvotes** |
+| **Dataset Downloads** | **1,200+ Downloads** (1 Dataset Bronze Medal) |
+| **Consistency** | **100-Day Login Streak** & **30-Day Super Submission Streak** |
 
-</div>
-
-### Featured Gold-Medal Solutions & Kernels:
-- 🥇 **[ans_verifys](https://www.kaggle.com/code/amanatar/ans-verifys)** — **749+ Upvotes** | High-precision answer verification and test-time compute scaling harness.
-- 🥇 **[improved-metric-hack-last-call](https://www.kaggle.com/code/amanatar/improved-metric-hack-last-call)** — **196+ Upvotes** | SOTA metric optimization and loss function calibration for competition leaderboards.
-- 🥇 **[NVIDIA Nemotron - SFTTrainer training](https://www.kaggle.com/code/amanatar/nvidia-nemotron-sfttrainer-training)** — **176+ Upvotes** | End-to-end Supervised Fine-Tuning (SFT) and alignment pipeline for NVIDIA Nemotron LLMs.
-- 🥇 **[Biohub Geometric Fusion](https://www.kaggle.com/code/amanatar/biohub-geometric-fusion)** — **172+ Upvotes** | Multi-modal geometric ensembling and spatial-temporal feature fusion.
-- 🥇 **[Same As Tong Hui Kang's Tinker submission notebook](https://www.kaggle.com/code/amanatar/same-as-tong-hui-kang-s-tinker-submission-noteboo)** — **148+ Upvotes** | High-performance inference engine for tabular & ensemble benchmarks.
-
----
-
-## 🛠️ Technical Stack & Tooling
-
-```
-Quant & Deep Learning  : Python | PyTorch | LightGBM | XGBoost | CatBoost | ONNX | Differential ML | Stochastic Calculus
-Generative AI & MLOps  : Google ADK | Amazon Bedrock RAG | Gemini API | NVIDIA NIM | MLflow | FastAPI | Docker | AWS EC2
-Systems & Analytics    : Rust | Linux / Shell | SQL / PostgreSQL | NumPy | Pandas | SciPy | Matplotlib | Plotly
-```
+### Selected Gold-Medal Notebooks:
+- **[ans_verifys](https://www.kaggle.com/code/amanatar/ans-verifys)** (749+ upvotes, Gold) -- Reasoning verification and test-time compute scaling harness.
+- **[improved-metric-hack-last-call](https://www.kaggle.com/code/amanatar/improved-metric-hack-last-call)** (196+ upvotes, Gold) -- Custom loss formulation and post-processing calibration.
+- **[NVIDIA Nemotron - SFTTrainer training](https://www.kaggle.com/code/amanatar/nvidia-nemotron-sfttrainer-training)** (176+ upvotes, Gold) -- SFT training and alignment pipeline for Nemotron LLMs.
+- **[Biohub Geometric Fusion](https://www.kaggle.com/code/amanatar/biohub-geometric-fusion)** (172+ upvotes, Gold) -- Multi-modal spatial-temporal feature ensembling.
+- **[Same As Tong Hui Kang's Tinker submission notebook](https://www.kaggle.com/code/amanatar/same-as-tong-hui-kang-s-tinker-submission-noteboo)** (148+ upvotes, Gold) -- High-throughput inference for tabular benchmarks.
 
 ---
 
-## 📬 Contact & Research Collaboration
-- **Email:** [ataraman9@gmail.com](mailto:ataraman9@gmail.com)
+## Technical Focus & Tools
+
+- **Quant & Modeling:** Python, PyTorch, LightGBM, XGBoost, CatBoost, Differential ML, Stochastic Calculus, Carr-Madan FFT
+- **GenAI & Infrastructure:** Google ADK, Amazon Bedrock RAG, Gemini API, NVIDIA NIM, MLflow, FastAPI, Flask, Docker, AWS EC2
+- **Data & Tools:** NumPy, Pandas, SciPy, OpenCV, PostgreSQL, Linux / Bash, Git
+
+---
+
+## Contact
+
 - **Kaggle:** [kaggle.com/amanatar](https://www.kaggle.com/amanatar)
 - **LinkedIn:** [linkedin.com/in/aman-atar](https://www.linkedin.com/in/aman-atar)
-- **Location:** Maharashtra, India
+- **GitHub:** [github.com/Amanatar](https://github.com/Amanatar)
+- **Email:** [ataraman9@gmail.com](mailto:ataraman9@gmail.com)
