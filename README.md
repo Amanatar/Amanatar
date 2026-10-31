@@ -19,7 +19,7 @@ Currently doing my MSc in Financial Engineering at WorldQuant University (plus A
 
 ---
 
-## Featured Systems & Code (Original Repositories)
+## Featured Systems & Code (Original Flagship Repositories)
 
 | System | Focus & Implementation Details | Stack |
 | :--- | :--- | :--- |
@@ -32,14 +32,10 @@ Currently doing my MSc in Financial Engineering at WorldQuant University (plus A
 
 ---
 
-## Other Applied Repositories
+## Applied Engineering Repositories
 
-- **[jpmc-quant-research-forage](https://github.com/Amanatar/jpmc-quant-research-forage):** Quantitative simulation covering natural gas seasonal curve fitting, storage facility pricing, credit default estimation, and optimal FICO risk bucketing.
-- **[google-advanced-data-analytics-projects](https://github.com/Amanatar/google-advanced-data-analytics-projects):** Complete Google Advanced Data Analytics capstone implementations (Automatidata fare prediction, TikTok claim classification, Waze churn prediction, and Salifort retention).
 - **[practical-deep-learning-for-coders](https://github.com/Amanatar/practical-deep-learning-for-coders):** Deep learning vision architectures, transfer learning pipelines, and tabular neural networks implemented via Fast.ai and PyTorch.
 - **[student-mental-health-companion](https://github.com/Amanatar/student-mental-health-companion):** Affective state computing assistant combining VADER sentiment analysis, custom emotional lexicon mapping, and dual-mode Gemini/offline dialogue generation.
-- **[bellabeat-smart-device-analysis](https://github.com/Amanatar/bellabeat-smart-device-analysis):** Quantitative consumer wellness telemetry analysis identifying behavioral engagement patterns and activity-sleep correlations.
-- **[covid19-data-analysis](https://github.com/Amanatar/covid19-data-analysis):** Epidemiological time-series analysis exploring infection acceleration rates and mortality distributions from Johns Hopkins CSSE records.
 - **[machine-learning-project](https://github.com/Amanatar/machine-learning-project):** Catalog of 20 supervised, unsupervised, and deep learning implementations across clinical healthcare, finance, NLP, and signal processing.
 - **[Project_euler](https://github.com/Amanatar/Project_euler):** Vectorized and dynamic programming solutions to Project Euler problems (0–26) in pure Python.
 
