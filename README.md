@@ -26,9 +26,22 @@ Currently doing my MSc in Financial Engineering at WorldQuant University (plus A
 | **[auditable-regime-aware-agentic-forecasting](https://github.com/Amanatar/auditable-regime-aware-agentic-forecasting)**<br>`TRACE-Fin` | **Timestamp-restricted, regime-aware evidence-audited forecasting for financial returns.** Enforces strict causality invariants (zero lookahead leakage), market regime shift detection, transaction-cost utility optimization, and conformal uncertainty intervals. | `Python`, `PyTorch`, `Time-Series ML`, `Regime Detection` |
 | **[neural-bates-dml](https://github.com/Amanatar/neural-bates-dml)**<br>`Sobolev Pricing Engine` | **Differential Machine Learning surrogate for the Bates SVJD stochastic volatility jump-diffusion model.** Trains a twin neural network with Sobolev-style loss on analytical prices and Greeks sensitivities from a Carr-Madan FFT pricer, bringing SPY calibration time down to milliseconds. | `Python`, `PyTorch`, `Sobolev Training`, `Carr-Madan FFT`, `Bates SVJD` |
 | **[FinFaithful-RAG](https://github.com/Amanatar/FinFaithful-RAG)**<br>`SEC 10-K Retrieval & Faithfulness Benchmark` | **SEC EDGAR 10-K dense FAISS & hybrid RAG evaluation pipeline.** Benchmarks sparse lexical vs dense vector retrieval against an automated LLM-as-a-Judge grading pipeline via NVIDIA NIM (`llama-3.1-70b`), lifting faithfulness from 1.67/5 to 5.0/5 at 5.0s latency. | `Python`, `FAISS`, `Sentence-Transformers`, `NVIDIA NIM`, `LLM-as-a-Judge` |
-| **[google-ai-agents-intensive.](https://github.com/Amanatar/google-ai-agents-intensive.)**<br>`The Alpha Seeker` | **Autonomous multi-agent trading system.** Google Agent Development Kit (ADK) & Kaggle capstone coordinating sequential, parallel, and feedback-loop agents for macro data ingestion, signal evaluation, and max drawdown (<15%) enforcement. | `Python`, `Google ADK`, `Multi-Agent LLMs`, `Technical Analysis` |
-| **[applied_-ai_lab_deep_learning_computer_vision_wqu](https://github.com/Amanatar/applied_-ai_lab_deep_learning_computer_vision_wqu)**<br>`Applied AI Lab (WQU)` | **Computer vision and deep learning lab.** End-to-end PyTorch implementations including YOLO object detection, convolutional neural nets, transfer learning, and OpenCV image pipelines. | `Python`, `PyTorch`, `OpenCV`, `YOLO`, `CNNs` |
 | **[IRL_Data_Science_-_GenAi_Internship](https://github.com/Amanatar/IRL_Data_Science_-_GenAi_Internship)**<br>`Production GenAI & MLOps` | **Production LLM & MLOps suite.** Includes FinWiser (financial assistant with Gemini + NVIDIA NIM auto-failover on AWS EC2), enterprise RAG via Amazon Bedrock, and centralized MLflow tracking across 5 classification baselines. | `Python`, `AWS EC2`, `Bedrock RAG`, `MLflow`, `Flask`, `Docker` |
+| **[google-ai-agents-intensive](https://github.com/Amanatar/google-ai-agents-intensive)**<br>`The Alpha Seeker` | **Autonomous multi-agent trading system.** Google Agent Development Kit (ADK) & Kaggle capstone coordinating sequential, parallel, and feedback-loop agents for macro data ingestion, signal evaluation, and max drawdown (<15%) enforcement. | `Python`, `Google ADK`, `Multi-Agent LLMs`, `Technical Analysis` |
+| **[hypertension-risk-assessment](https://github.com/Amanatar/hypertension-risk-assessment)**<br>`Clinical Risk Classifier` | **End-to-end cardiovascular risk stratification interface.** Maps multi-factor telemetry into clinical risk stages (Normal, Stage 1, Stage 2, Crisis) with calibrated probability confidence and automated medical triage recommendations. | `Python`, `Flask`, `scikit-learn`, `Telemetry Triage` |
+
+---
+
+## Other Applied Repositories
+
+- **[jpmc-quant-research-forage](https://github.com/Amanatar/jpmc-quant-research-forage):** Quantitative simulation covering natural gas seasonal curve fitting, storage facility pricing, credit default estimation, and optimal FICO risk bucketing.
+- **[google-advanced-data-analytics-projects](https://github.com/Amanatar/google-advanced-data-analytics-projects):** Complete Google Advanced Data Analytics capstone implementations (Automatidata fare prediction, TikTok claim classification, Waze churn prediction, and Salifort retention).
+- **[practical-deep-learning-for-coders](https://github.com/Amanatar/practical-deep-learning-for-coders):** Deep learning vision architectures, transfer learning pipelines, and tabular neural networks implemented via Fast.ai and PyTorch.
+- **[student-mental-health-companion](https://github.com/Amanatar/student-mental-health-companion):** Affective state computing assistant combining VADER sentiment analysis, custom emotional lexicon mapping, and dual-mode Gemini/offline dialogue generation.
+- **[bellabeat-smart-device-analysis](https://github.com/Amanatar/bellabeat-smart-device-analysis):** Quantitative consumer wellness telemetry analysis identifying behavioral engagement patterns and activity-sleep correlations.
+- **[covid19-data-analysis](https://github.com/Amanatar/covid19-data-analysis):** Epidemiological time-series analysis exploring infection acceleration rates and mortality distributions from Johns Hopkins CSSE records.
+- **[machine-learning-project](https://github.com/Amanatar/machine-learning-project):** Catalog of 20 supervised, unsupervised, and deep learning implementations across clinical healthcare, finance, NLP, and signal processing.
+- **[Project_euler](https://github.com/Amanatar/Project_euler):** Vectorized and dynamic programming solutions to Project Euler problems (0–26) in pure Python.
 
 ---
 
@@ -56,5 +69,5 @@ Currently doing my MSc in Financial Engineering at WorldQuant University (plus A
 
 - **Kaggle:** [kaggle.com/amanatar](https://www.kaggle.com/amanatar)
 - **LinkedIn:** [linkedin.com/in/aman-atar](https://www.linkedin.com/in/aman-atar)
-- **GitHub:** [github.com/Amanatar](https://github.com/Amanatar)
+- **GitHub:** [github.com/Amanatar](https://www.github.com/Amanatar)
 - **Email:** [ataraman9@gmail.com](mailto:ataraman9@gmail.com)
